@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubrik Anugerah</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Brown Theme */
+        body {
+            display: flex;
+            background-color: #f7f1e5;
+            color: #4e342e;
+        }
+        h1, h2 {
+            color: #4e342e;
+        }
+        .card-header {
+            background-color: #f0e0c9;
+            color: white;
+            font-weight: 600;
+        }
+        .card-title {
+            font-size: 1.5rem;
+        }
+        .table th, .table td {
+            vertical-align: middle;
+            background-color: #f7f1e5;
+        }
+        /* Sidebar styling */
+        .sidebar {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #d7ccc8;
+            border-right: 1px solid #a1887f;
+            padding-top: 20px;
+        }
+        .sidebar h2 {
+            color: #4e342e;
+        }
+        .sidebar a {
+            display: block;
+            color: #6d4c41;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #c5a899;
+            color: #4e342e;
+        }
+        @media (max-width: 768px) {
+            body {
+                font-size: 12px;
+            }
+            .text-center {
+                font-size: 25px;
+            }
+            .card-title {
+                font-size: 21px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                font-size: 12px;
+            }
+            .text-center {
+                font-size: 25px;
+            }
+            .card-title {
+                font-size: 21px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <div class="sidebar col-md-3">
+        <h2 class="text-center">Senarai Anugerah</h2>
+        <a href="#terbaik">Anugerah Pentadbir Terbaik</a>
+        <a href="#pentadbir-harapan">Anugerah Pentadbir Harapan</a>
+        <a href="#kreativiti">Anugerah Pentadbir Kreativiti & Inovasi</a>
+        <a href="#khidmat-komuniti">Anugerah Pentadbir Khidmat Komuniti</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container col-md-9 my-5">
+        <h1 class="text-center mb-5">Rubrik Penilaian Anugerah</h1>
+
+        <!-- Award Sections -->
+        <div id="terbaik" class="card mb-4">
+            <div class="card-header">
+                <h2 class="card-title">Anugerah Pentadbir Terbaik</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Rubrik ini menetapkan kriteria yang dinilai bagi <strong>Anugerah Pentadbir Terbaik</strong>.</p>
+                <h3>Kriteria Penilaian</h3>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Bil</th>
+                                <th>Kriteria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sumbangan dan pencapaian yang diambil kira adalah dalam tempoh 3 tahun terkini.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Penilaian adalah berdasarkan:
+                                    <ul>
+                                        <li>Pentadbir yang menunjukkan kecemerlangan dalam apa jua bidang di peringkat Komuniti, Universiti, Negeri, Kebangsaan, dan Antarabangsa yang menaikkan imej dan reputasi Universiti.</li>
+                                        <li>Pengiktirafan kepada hasil sumbangan kreativiti dan inovasi.</li>
+                                        <li>Sumbangan dalam tugas rasmi dan komuniti.</li>
+                                        <li>Kecemerlangan kepimpinan dalam organisasi.</li>
+                                        <li>Penglibatan dan disiplin diri yang tinggi.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Calon pernah menerima Anugerah Perkhidmatan Cemerlang (APC) atau Pingat Darjah Kebesaran atau lain-lain anugerah/ pingat yang diiktiraf.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Menjadi contoh terbaik dan memberi sumbangan dalam bidang yang berkaitan untuk kepentingan Jabatan dan organisasi.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat similar sections for other awards with unique IDs -->
+        <div id="pentadbir-harapan" class="card mb-4">
+            <div class="card-header">
+                <h2 class="card-title">Anugerah Pentadbir Harapan</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Rubrik ini menetapkan kriteria yang dinilai bagi <strong>Anugerah Pentadbir Harapan</strong>.</p>
+                <h3>Kriteria Penilaian</h3>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Bil</th>
+                                <th>Kriteria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sumbangan dan pencapaian yang diambil kira adalah dalam tempoh 3 tahun terkini.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Staf yang berkhidmat melebihi 3 tahun dan kurang 7 tahun layak memohon.</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Pengiktirafan kepada hasil sumbangan kreativiti dan inovasi.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Kecemerlangan/ sumbangan dalam apa jua bidang di peringkat Universiti/ Komuniti/ Negeri/ Kebangsaan/ Antarabangsa yang menaikkan imej dan reputasi Universiti.</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Penglibatan dan disiplin diri yang tinggi.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Continue with sections for other awards, ensuring each has a unique ID for navigation -->
+        <!-- Example section for "Anugerah Pentadbir Gemilang (Penulisan Ilmiah/ Sosial)" -->
+        <div id="kreativiti" class="card mb-4">
+            <div class="card-header">
+                <h2 class="card-title">Anugerah Pentadbir Kreativiti & Inovasi</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Rubrik ini menetapkan kriteria yang dinilai bagi <strong>Anugerah Pentadbir Kreativiti & Inovasi</strong>.</p>
+                <h3>Kriteria Penilaian</h3>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Bil</th>
+                                <th>Kriteria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Projek inovasi yang diperkenalkan hendaklah kreatif sama ada yang baharu atau telah diadaptasi. Inovasi yang dihasilkan adalah bagi menangani isu penting dalam pelaksanaan tugas di PTJ/ Jabatan.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Projek inovasi boleh digunapakai oleh agensi-agensi dan pihak-pihak lain secara terus atau dengan diubahsuai mengikut keperluan.</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Projek inovasi yang dapat memberi faedah yang jelas kepada peningkatan kualiti dan produktiviti serta memberi impak dalam membantu komuniti tersebut.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Projek inovasi dapat menyumbang kepada cara bekerja yang lebih cekap, cepat tepat, dan mudah.</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Projek inovasi dapat meningkatkan produktiviti hasil kerja organisasi dengan kos yang sama atau lebih rendah.</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Projek inovasi berupaya membina jaringan dan kelestarian hubungan antara masyarakat, industri dan institusi dalam bentuk kerjasama jangka masa panjang.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="khidmat-komuniti" class="card mb-4">
+            <div class="card-header">
+                <h2 class="card-title">Anugerah Pentadbir Khidmat Komuniti</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Rubrik ini menetapkan kriteria yang dinilai bagi <strong>Anugerah Pentadbir Gemilang (Khidmat Komuniti)</strong>.</p>
+                <h3>Kriteria Penilaian</h3>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Bil</th>
+                                <th>Kriteria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Pelaksanaan aktiviti/ program komuniti yang memberi impak tinggi dalam meningkatkan kesejahteraan hidup komuniti dan meningkatkan sahsiah kakitangan Universiti.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Peringkat penglibatan dan peranan di peringkat Negeri/ Kebangsaan/ Antarabangsa.</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Keahlian/ keanggotaan dalam persatuan/ pertubuhan/ sukarelawan/ badan bukan kerajaan (NGO) di peringkat Universiti/ Negeri/ Kebangsaan/ Antarabangsa.</td>
+                            </tr>
+                            <tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Anugerah/ berbentuk pingat/ sijil penghargaan/ surat sokongan yang berkaitan dengan khidmat masyarakat sahaja.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Smooth Scrolling and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Smooth scrolling for sidebar links
+        document.querySelectorAll('.sidebar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
